@@ -1,0 +1,56 @@
+[
+  {
+    "event": "send",
+    "msg": {},
+    "_id": "sendTest",
+    "ts": 1384954004
+  },
+  {
+    "event": "deferral",
+    "msg": {},
+    "_id": "deferralTest",
+    "ts": 1384954004
+  },
+  {
+    "event": "soft_bounce",
+    "msg": {},
+    "_id": "softBounceTest",
+    "ts": 1384954004
+  },
+  {
+    "event": "hard_bounce",
+    "msg": {},
+    "_id": "hardBounceTest",
+    "ts": 1384954004
+  },
+  {
+    "event": "click",
+    "msg": {},
+    "_id": "clickTest",
+    "ts": 1384954004
+  },
+  {
+    "event": "open",
+    "msg": {},
+    "_id": "openTest",
+    "ts": 1384954004
+  },
+  {
+    "event": "spam",
+    "msg": {},
+    "_id": "spamTest",
+    "ts": 1384954004
+  },
+  {
+    "event": "unsub",
+    "msg": {},
+    "_id": "unsubTest",
+    "ts": 1384954004
+  },
+  {
+    "event": "reject",
+    "msg": {},
+    "_id": "rejectTest",
+    "ts": 1384954004
+  }
+]

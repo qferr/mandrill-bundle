@@ -1,0 +1,35 @@
+{
+  "name": "qferr/mandrill-bundle",
+  "description": "Symfony Mandrill Bundle",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Quentin Ferrer"
+    }
+  ],
+  "require": {
+    "php": ">=7.2.5",
+    "symfony/http-foundation": "^4.4|^5.0",
+    "symfony/event-dispatcher": "^4.4|^5.0",
+    "symfony/http-kernel": "^4.4|^5.0",
+    "symfony/dependency-injection": "^4.4|^5.0",
+    "symfony/config": "^4.4|^5.0",
+    "symfony/framework-bundle": "^4.4|^5.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~7.0"
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit tests/"
+  },
+  "autoload": {
+    "psr-4": {
+      "Qferrer\\Symfony\\MandrillBundle\\" : "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Qferrer\\Tests\\Symfony\\MandrillBundle\\": "tests/"
+    }
+  }
+}

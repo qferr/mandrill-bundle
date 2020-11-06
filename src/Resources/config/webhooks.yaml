@@ -1,0 +1,7 @@
+services:
+  Qferrer\Symfony\MandrillBundle\Handler\WebhookHandler:
+    arguments:
+      - '@Symfony\Contracts\EventDispatcher\EventDispatcherInterface'
+  Qferrer\Symfony\MandrillBundle\Security\WebhookAuthentication: ~
+  Qferrer\Symfony\MandrillBundle\Controller\WebhookController:
+    tags: ['controller.service_arguments']

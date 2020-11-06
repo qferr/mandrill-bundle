@@ -1,0 +1,4 @@
+qferrer_mandrill_hooks:
+  path: /mandrill/hooks
+  controller: Qferrer\Symfony\MandrillBundle\Controller\WebhookController::handle
+  methods: POST|GET|HEAD
