@@ -20,6 +20,13 @@ final class MessageEvents
      * @var string
      */
     const SEND = self::PREFIX . '.send';
+    
+    /**
+     * Message is delivered.
+     *
+     * @var string
+     */
+    const DELIVERED = self::PREFIX . '.delivered';
 
     /**
      * Message is delayed.
@@ -86,6 +93,7 @@ final class MessageEvents
     {
         return [
             self::SEND,
+            self::DELIVERED,
             self::DELAYED,
             self::SOFT_BOUNCE,
             self::HARD_BOUNCE,
